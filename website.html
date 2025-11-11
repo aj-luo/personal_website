@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="images/akira-pill.png">
+    <title>
+      Albert J Luo
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+
+
+
+
+
+  <body>
+    <header>
+      <p id="albert_nav">
+        Albert Jian Luo
+      </p>
+      <nav>
+        <ul class="nav_links">
+          <button class="logo_button">
+            <a href="https://www.linkedin.com/in/albert-jian/" target="_blank">
+              <img class="logo_button_image" src="images/linkedin-app-white-icon.png" alt="linkedin">
+            </a>
+          </button>
+          <button class="logo_button">
+            <a href="https://github.com/aj-luo" target="_blank">
+              <img class="logo_button_image" src="images/github-white-icon.png"
+              alt="github">
+            </a>
+          </button>
+          <button class="logo_button">
+            <a href="mailto:albertjianluo@gmail.com">
+              <img class="logo_button_image" src="images/email_clear.png" alt="email">
+            </a>
+          </button>
+          <li><a href="images/Resume.pdf" target="_blank">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <video autoplay muted loop id="background-video">
+      <source src="images/akira.mp4" type="video/mp4">
+    </video>
+   
+
+    <div class="container_opening">
+      <img class="akira" src="images/akira_gif.gif">
+      <h1 class="opening">
+        Welcome To My Little World!
+      </h1>
+      <h2 class="sub-opening">Hop on, let's go for a ride!</h2>
+    </div>
+    
+    
+    <!--about me section-->
+    <div class="about_me">
+      <h1 id="about">About Me</h1>
+      <div class="images">
+      <img class="image" src="images/flower_boi.jpg"> 
+      <img class="image" src="images/yosemite_ss.png">
+      <img class="image" src="images/monterey.png">
+      </div>
+
+      <div class="intro_div">
+      <p id="introduction">
+        Hi all, Albert here! I am a 23 year old software developer located in Toronto, Canada. I graduated in 2023 from the University of Toronto St. George with an Honours Bachelor of Science in Computer Science and currently working at the Bank of Montreal. I am passionate about web development and also game development and open to learning new things. I believe we live in a world with endless knowledge and possibilities to explore. Our horizons are limitless and I am excited to see what the future holds for us!
+      </p>
+    </div>
+      <model-viewer 
+        class="ps4-controller" 
+        id="mv-controller" 
+        src="images/ps4-stik.glb" 
+        camera-controls 
+        auto-rotate 
+        auto-rotate-speed="40">
+      </model-viewer>
+      <p class="controller-text">My coding journey began with my love for video games. Here is a ps4 controller, my favorite console!</p>
+    </div>
+
+
+    <h3 class="header">Curious to know me?</h3>
+
+    <h3 class="header">My Projects</h3>
+    <h4 class="subheader" class="text">Here are some of the projects I have worked on. Feel free to give them a try!</h4>
+
+    <h3 class="header">Experiences</h3>
+    <h4 class="subheader" class="text">Where I have worked!</h4>
+
+    <h3 class="header">Tech Stack</h3>
+    <h4 class="subheader" class="text">Here are some languages that I like to use or have used before.</h4>
+
+
+    <h3 class="header">Tools & Services</h3>
+    <h4 class="subheader" class="text">Some tools and services which I use regularly on the job and in everyday life.</h4>
+
+
+    <section id="contact">
+      <h3 class="header" class="text">Contact Me</h3>
+    </section>
+      
+    <h4 class="closer">Built and designed by Albert Jian Luo.</h4>
+    <h4 class="closer">All rights reserved. &#169;</h4>
+
+  </body>
+
+</html>
