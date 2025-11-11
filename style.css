@@ -86,12 +86,12 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  z-index: -1; /* Push behind all other content */
-  opacity: 0.6; /* Optional: make it less distracting */
-  pointer-events: none; /* So it doesn't block clicking/scrolling */
+  width: 100vw;       /* always matches the viewport width */
+  height: 1200px;      /* fixed height — change to what you want */
+  object-fit: cover;  /* keeps the aspect ratio, crops if needed */
+  z-index: -1;
+  opacity: 0.6;
+  pointer-events: none;
 }
 
 
